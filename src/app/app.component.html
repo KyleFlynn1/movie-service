@@ -1,0 +1,7 @@
+<h1>Movie Favorites</h1>
+<h2>S00251601 - Kyle Flynn</h2>
+<ul>
+  <li *ngFor="let movie of movies">
+    {{ movie.title }} ({{ movie.year }}) - Directed by {{ movie.director }}
+  </li>
+</ul>
